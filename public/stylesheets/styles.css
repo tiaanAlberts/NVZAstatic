@@ -1,0 +1,123 @@
+
+html{
+    font-family: 'Raleway', ;
+}
+body{
+    background-color:#85171a;
+    color: white;
+}
+
+/* ---------------------- */
+/* Index Page */
+/* ---------------------- */
+
+.topSec{
+    background-color:#85171a;
+    height: 5rem;
+}
+
+#image {
+    /* The image used */
+    background-image: url("../images/NVZA.png");
+    height: 500px;
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.botSec{
+    background-color:#85171a;
+    height: 5rem;
+    font-family: 'Raleway', ;
+}
+.botSec hr{
+    background: white;
+}
+
+/* ---------------------- */
+/* About Page */
+/* ---------------------- */
+#about_body{
+    background-color:#85171a;
+}
+
+#about_body hr{
+    background: white;
+}
+
+/* ---------------------- */
+/* Contact Page */
+/* ---------------------- */
+#contact_form{
+    background: #85171a;
+}
+
+#contact_form hr{
+    background: white;
+}
+
+/* ---------------------- */
+/* Navbar */
+/* ---------------------- */
+.navbar-custom{
+    background-color:#85171a;
+}
+.navbar-custom .navbar-brand a img{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-custom .navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.navbar-custom .navbar-brand{
+    color: white;
+}
+
+.navbar-custom .nav-link{
+    color: white;
+    border-bottom: 3px solid transparent;
+    border-bottom-left-radius: 8px;
+    /* border-bottom-right-radius: 8px ; */
+    transition: border 200ms;
+}
+.navbar-custom .nav-link:hover{
+    color: white;
+    border-bottom: 3px solid white;
+    border-bottom-left-radius: 8px;
+    /* border-bottom-right-radius: 8px ; */
+}
+.navbar-custom .navbar-brand{
+
+    border-bottom: 3px solid transparent;
+    /* border-bottom-left-radius: 8px; */
+    border-bottom-right-radius: 8px ;
+    transition: border 200ms;
+    margin-right: 0;
+}
+.navbar-custom .navbar-brand:hover{
+
+    border-bottom: 3px solid white;
+    /* border-bottom-left-radius: 8px; */
+    border-bottom-right-radius: 8px ;
+}
+
+.navbar-custom .navbar-toggler-icon{
+    color: white;
+}
+
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #85171a;
+    color: white;
+    text-align: left;
+    margin-left: 2rem;
+  } */

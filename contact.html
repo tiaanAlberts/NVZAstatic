@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NVZA Attorneys</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./public/stylesheets/styles.css">
+
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="index.html"><img src="./public/images/NVZAinverse.png" alt="" width="80px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Form uses Formspree to send the form to an email -->
+    <section id="contact_form">
+        <div class="container mb-4">
+           <div class="row">
+            <div class="col-md-6 order-md-2">
+                <h1 class="mt-4">Send Us A Message</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus libero quibusdam blanditiis enim quod, sit assumenda dolor suscipit dicta sunt dolore nostrum esse vel sapiente animi ad voluptatum eveniet voluptates nobis impedit maxime eligendi velit? Quo perferendis culpa consequuntur, consectetur reiciendis laudantium. Autem illo culpa officiis error velit, asperiores a dicta, animi laudantium, possimus expedita omnis? Nostrum labore libero nisi laboriosam voluptatem officia natus maxime fugiat tempora facilis, voluptates voluptatum ex, nemo consectetur eos voluptas delectus soluta minus amet temporibus facere sunt! Ratione debitis, sapiente, libero excepturi cupiditate a magni alias fugit doloribus, dolor magnam earum laudantium! Aut, aspernatur. Sapiente.</p>
+            </div>
+               <div class="col-md-6 order-md-1">
+                <form action="https://formspree.io/xpzropbo" method="POST">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="firstName"></label>
+                            <input class="form-control" type="text" name="name" id="first_name" required placeholder="First Name">
+                        </div>
+                        <div class="col">
+                            <label for="lastName"></label>
+                            <input class="form-control" type="text" name="lastName" id="last_name" required placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input class="form-control mt-4" type="email" name="_replyto" id="email" required placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <textarea class="form-control mt-4" name="message" id="message" cols="30" rows="10" required placeholder="Your message here"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="Send Message" class="btn btn-outline-light mt-4">
+                </form>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
